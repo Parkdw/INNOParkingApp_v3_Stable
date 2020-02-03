@@ -1,0 +1,291 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:1-87:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:1-87:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:1-87:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:1-87:12
+MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\a117a9898972958486583ec3f8949b93\play-services-location-11.4.2\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\14d45a946d53a1de39045c6c64169994\play-services-tasks-11.4.2\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:16:1-23:12
+MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c9c81f56e40d82a154ce34c9fc415806\appcompat-v7-23.2.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c7da46622aa845b1e1ecbf72d2fca989\animated-vector-drawable-23.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\159bab109f2e9267d5cada9575038121\support-vector-drawable-23.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\59a554bb2bfccd05bf36a63ad00f1d51\support-v4-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0afa0994b7335c564402d9197d4cdebd\support-fragment-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\03c51691c0d7e2538e64e09fa834f997\support-media-compat-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0e29bf1fce76e20affff81f693779537\support-core-utils-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\70eea6b934f99a7b02b6b984e3380064\support-core-ui-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\94540fccc2065d43f334bf9e5faa0cdc\support-compat-25.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.tsengvn:Typekit:1.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\d6347186d496333a5da2937942c76cc2\Typekit-1.0.0\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5488f7b60e181566cc727b9f5d8f1720\play-services-location-license-11.4.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.kakao.sdk:network:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\95822bfec9c5f56a9e1f15b5c1cb6f36\network-1.1.31\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5e5f903759a12767d19eeb644709acbb\play-services-base-license-11.4.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c914416c583f5cefa0fed3d9e468d631\play-services-basement-license-11.4.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\181e04b942840a4324fccd760e5edf9f\play-services-tasks-license-11.4.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.kakao.sdk:util:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\60f2c1d1af0230085da90020704e5a78\util-1.1.31\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:1-87:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:1-87:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:1-87:12
+	package
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:8:5-38
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:10:7-34
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:7:5-51
+	xmlns:android
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:6:11-69
+	android:versionCode
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:9:7-32
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:5-136
+	android:largeScreens
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:23-50
+	android:smallScreens
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:80-107
+	android:normalScreens
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:51-79
+	android:anyDensity
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:108-133
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:27:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:29:22-73
+uses-permission#android.permission.WRITE_OWNER_DATA
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:31:5-74
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:31:22-72
+uses-permission#android.permission.READ_OWNER_DATA
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:33:5-73
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:33:22-71
+application
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:36:5-85:19
+MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:11:5-14:19
+MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\a117a9898972958486583ec3f8949b93\play-services-location-11.4.2\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\a117a9898972958486583ec3f8949b93\play-services-location-11.4.2\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\14d45a946d53a1de39045c6c64169994\play-services-tasks-11.4.2\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\14d45a946d53a1de39045c6c64169994\play-services-tasks-11.4.2\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:19:5-21:19
+MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:11:5-18:19
+MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:11:5-18:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c9c81f56e40d82a154ce34c9fc415806\appcompat-v7-23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c9c81f56e40d82a154ce34c9fc415806\appcompat-v7-23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c7da46622aa845b1e1ecbf72d2fca989\animated-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c7da46622aa845b1e1ecbf72d2fca989\animated-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\159bab109f2e9267d5cada9575038121\support-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\159bab109f2e9267d5cada9575038121\support-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\59a554bb2bfccd05bf36a63ad00f1d51\support-v4-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\59a554bb2bfccd05bf36a63ad00f1d51\support-v4-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0afa0994b7335c564402d9197d4cdebd\support-fragment-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0afa0994b7335c564402d9197d4cdebd\support-fragment-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\03c51691c0d7e2538e64e09fa834f997\support-media-compat-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\03c51691c0d7e2538e64e09fa834f997\support-media-compat-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0e29bf1fce76e20affff81f693779537\support-core-utils-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0e29bf1fce76e20affff81f693779537\support-core-utils-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\70eea6b934f99a7b02b6b984e3380064\support-core-ui-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\70eea6b934f99a7b02b6b984e3380064\support-core-ui-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\94540fccc2065d43f334bf9e5faa0cdc\support-compat-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\94540fccc2065d43f334bf9e5faa0cdc\support-compat-25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.tsengvn:Typekit:1.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\d6347186d496333a5da2937942c76cc2\Typekit-1.0.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.tsengvn:Typekit:1.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\d6347186d496333a5da2937942c76cc2\Typekit-1.0.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5488f7b60e181566cc727b9f5d8f1720\play-services-location-license-11.4.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5488f7b60e181566cc727b9f5d8f1720\play-services-location-license-11.4.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5e5f903759a12767d19eeb644709acbb\play-services-base-license-11.4.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5e5f903759a12767d19eeb644709acbb\play-services-base-license-11.4.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c914416c583f5cefa0fed3d9e468d631\play-services-basement-license-11.4.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c914416c583f5cefa0fed3d9e468d631\play-services-basement-license-11.4.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\181e04b942840a4324fccd760e5edf9f\play-services-tasks-license-11.4.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\181e04b942840a4324fccd760e5edf9f\play-services-tasks-license-11.4.2\AndroidManifest.xml:5:5-20
+	android:screenOrientation
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:38:3-39
+	android:label
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:37:6-38
+	android:allowBackup
+		ADDED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:36:18-52
+	android:theme
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:42:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:40:9-69
+	android:usesCleartextTraffic
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:41:3-65
+activity#com.nhn.android.mapviewer.LogoActivity
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:theme
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:46:13-60
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:45:19-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:47:13-50:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:49:27-74
+activity#com.nhn.android.mapviewer.NMapViewer
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:55:9-62:20
+	android:configChanges
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:56:19-69
+	android:theme
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:57:13-45
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:55:19-70
+activity#com.nhn.android.mapviewer.FragmentMapActivity
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:64:9-66:20
+	android:configChanges
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:65:19-69
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:64:19-79
+activity#com.nhn.android.mapviewer.PopupAddressActivity
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:68:9-72:20
+	android:configChanges
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:71:13-63
+	android:theme
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:69:13-61
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:68:19-80
+meta-data#com.kakao.sdk.AppKey
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:74:9-76:53
+	android:value
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:76:13-50
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:75:13-48
+meta-data#com.kakao.sdk.kakaonavi.useWebView
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:78:9-80:37
+	android:value
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:80:13-34
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:79:13-62
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:82:9-84:39
+	android:required
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:83:13-50
+uses-sdk
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\a117a9898972958486583ec3f8949b93\play-services-location-11.4.2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\a117a9898972958486583ec3f8949b93\play-services-location-11.4.2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\14d45a946d53a1de39045c6c64169994\play-services-tasks-11.4.2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\14d45a946d53a1de39045c6c64169994\play-services-tasks-11.4.2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:17:5-43
+MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c9c81f56e40d82a154ce34c9fc415806\appcompat-v7-23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c9c81f56e40d82a154ce34c9fc415806\appcompat-v7-23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c7da46622aa845b1e1ecbf72d2fca989\animated-vector-drawable-23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c7da46622aa845b1e1ecbf72d2fca989\animated-vector-drawable-23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\159bab109f2e9267d5cada9575038121\support-vector-drawable-23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\159bab109f2e9267d5cada9575038121\support-vector-drawable-23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\59a554bb2bfccd05bf36a63ad00f1d51\support-v4-25.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\59a554bb2bfccd05bf36a63ad00f1d51\support-v4-25.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0afa0994b7335c564402d9197d4cdebd\support-fragment-25.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0afa0994b7335c564402d9197d4cdebd\support-fragment-25.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\03c51691c0d7e2538e64e09fa834f997\support-media-compat-25.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\03c51691c0d7e2538e64e09fa834f997\support-media-compat-25.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0e29bf1fce76e20affff81f693779537\support-core-utils-25.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\0e29bf1fce76e20affff81f693779537\support-core-utils-25.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\70eea6b934f99a7b02b6b984e3380064\support-core-ui-25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\70eea6b934f99a7b02b6b984e3380064\support-core-ui-25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\94540fccc2065d43f334bf9e5faa0cdc\support-compat-25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\94540fccc2065d43f334bf9e5faa0cdc\support-compat-25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.tsengvn:Typekit:1.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\d6347186d496333a5da2937942c76cc2\Typekit-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tsengvn:Typekit:1.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\d6347186d496333a5da2937942c76cc2\Typekit-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5488f7b60e181566cc727b9f5d8f1720\play-services-location-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5488f7b60e181566cc727b9f5d8f1720\play-services-location-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.kakao.sdk:network:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\95822bfec9c5f56a9e1f15b5c1cb6f36\network-1.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.kakao.sdk:network:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\95822bfec9c5f56a9e1f15b5c1cb6f36\network-1.1.31\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5e5f903759a12767d19eeb644709acbb\play-services-base-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\5e5f903759a12767d19eeb644709acbb\play-services-base-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c914416c583f5cefa0fed3d9e468d631\play-services-basement-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c914416c583f5cefa0fed3d9e468d631\play-services-basement-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\181e04b942840a4324fccd760e5edf9f\play-services-tasks-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\181e04b942840a4324fccd760e5edf9f\play-services-tasks-license-11.4.2\AndroidManifest.xml:4:5-43
+MERGED from [com.kakao.sdk:util:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\60f2c1d1af0230085da90020704e5a78\util-1.1.31\AndroidManifest.xml:11:5-13:41
+MERGED from [com.kakao.sdk:util:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\60f2c1d1af0230085da90020704e5a78\util-1.1.31\AndroidManifest.xml:11:5-13:41
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c9c81f56e40d82a154ce34c9fc415806\appcompat-v7-23.2.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:20-65
+activity#com.kakao.kakaonavi.KakaoNaviWebViewActivity
+ADDED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:12:9-17:20
+	android:launchMode
+		ADDED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:15:13-43
+	android:windowSoftInputMode
+		ADDED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:16:13-55
+	android:configChanges
+		ADDED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:14:13-59
+	android:name
+		ADDED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:13:13-72
