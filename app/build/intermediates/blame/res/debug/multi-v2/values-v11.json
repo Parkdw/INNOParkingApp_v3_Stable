@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\pdw07\\AndroidStudioProjects\\ParkingSystemAndroid-02.01-update\\ParkingSystemAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\pdw07\\AndroidStudioProjects\\ParkingSystemAndroid-02.01-update\\ParkingSystemAndroid\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "53",
+                        "endLines": "6",
+                        "endColumns": "9",
+                        "endOffsets": "216"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "9",
+                        "endOffsets": "218"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\pdw07\\.gradle\\caches\\transforms-2\\files-2.1\\c9c81f56e40d82a154ce34c9fc415806\\appcompat-v7-23.2.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,14,20,26,32,38,39,40,45,50,52,54,55,56,107,159",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2180,2605,2694,2795,3203,3623,3730,3859,3930,4013,7721,11569",
+                        "endLines": "7,13,19,25,31,37,38,39,44,49,51,53,54,55,106,158,159",
+                        "endColumns": "12,12,12,12,12,12,88,100,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "469,894,1322,1748,2175,2600,2689,2790,3198,3618,3725,3854,3925,4008,7716,11564,11655"
+                    },
+                    "to": {
+                        "startLines": "6,12,18,24,30,36,42,43,44,49,54,56,58,59,60,111,163",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "223,642,1067,1495,1921,2348,2773,2862,2963,3371,3791,3898,4027,4098,4181,7889,11737",
+                        "endLines": "11,17,23,29,35,41,42,43,48,53,55,57,58,59,110,162,163",
+                        "endColumns": "12,12,12,12,12,12,88,100,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "637,1062,1490,1916,2343,2768,2857,2958,3366,3786,3893,4022,4093,4176,7884,11732,11823"
+                    }
+                }
+            ]
+        }
+    ]
+}

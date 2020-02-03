@@ -1,0 +1,31 @@
+[서버 요청 API 정리]
+
+
+
+1. LoadParkingLot.php
+   - 호출예		: http://14.38.161.51/beaconparking/api/LoadParkingLot.php
+                          http://221.155.208.248/beaconparking/api/LoadParkingLot.php?lat=37.9033&lng=127.198&distance=5
+                          http://221.155.208.248/beaconparking/api/LoadParkingLot.php?name=포천
+
+   - 설명		: 주차장 정보를 가져온다. 
+                          전체 주차장 정보를 가져오거나, 위치(위도,경도) + 거리 또는 주차장 이름으로 검색된 정보를 가져올 수 도 있다.
+
+   - 인수
+     lat=[]		: 옵션, 현재 사용자의 위치 위도
+     lng=[]		: 옵션, 현재 사용자의 위치 경도
+     distance=[]	: 옵션, 현재 사용자에서 검색 반경 (km 단위)
+     name=[]		: 옵션, 주차장 이름 검색
+	 
+   - 결과
+     . 성공 - data 에서 id 는 주차장의 id 인데, 위도 경도를 쉼표로 구분한 문자열 값이다. lat 는 위도, lng 는 경도, name 은 주차장 이름 , desc 주차장 설명(보통 요금 정보), address 는 주차장 주소
+              distance 는 거리(인수에 lat, lng 값이 없을 경우에는 0), space 는 주차면 수, parked 는 현재 주차된 수
+
+       {"ret":0,"acc":"ok","data":[
+       {"id":"37.9033163,127.19828","lat":"37.9033163","lng":"127.19828","name":"경기도의료원 포천병원","desc":"","address":"경기도 포천시 포천로 1648","distance":"0.024633","space":1,"parked":0},
+       {"id":"37.9008669,127.2012579","lat":"37.9008669","lng":"127.2012579","name":"포천보건소","desc":"","address":"경기도 포천시 포천로 1612","distance":"0.393580","space":0,"parked":0},
+       {"id":"37.9005776,127.205755","lat":"37.9005776","lng":"127.205755","name":"신읍동 GS마트","desc":"","address":"경기도 포천시 중앙로 165","distance":"0.744723","space":0,"parked":0},
+       {"id":"37.8945858,127.200595","lat":"37.8945858","lng":"127.200595","name":"포천시청","desc":"","address":"경기도 포천시 중앙로 87","distance":"0.995368","space":0,"parked":0},
+       {"id":"37.8943937,127.1926945","lat":"37.8943937","lng":"127.1926945","name":"신읍동 휴먼시아아파트","desc":"","address":"경기도 포천시 왕방로118번길 7","distance":"1.094292","space":0,"parked":0}
+       ...
+     . 실패
+       {"ret":0,"acc":"not found"}

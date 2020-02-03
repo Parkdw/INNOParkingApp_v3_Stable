@@ -1,0 +1,17 @@
+version 1.07	versionCode 8
+앱 아이콘 및 로고 변경
+
+version 1.06	versionCode 7
+앱 아이콘 및 로고 변경
+
+version 1.05	versionCode 6
+이용요금 연동 안되는 문제 수정
+
+version 1.04	versionCode 5
+서버 주소 변경
+14.38.161.51  (이전 221.155.208.248)
+
+version 1.03	versionCode 4
+검색창이 Back버튼으로 닫히게 수정
+Back버튼으로 앱을 종료 할 경우 다시 켰을 때 Fragment(주차장마크)가 표시되지 않던 문제 수정
+-> Back버튼을 두번 누를 경우 앱을 강제종료 시킴
