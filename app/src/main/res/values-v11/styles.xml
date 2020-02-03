@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="App.Theme" parent="android:style/Theme.Holo">
+		<item name="colorPrimaryDark">#A1CDE1</item>
+		<item name="android:textColor">#FF0000</item>
+	</style>
+</resources>

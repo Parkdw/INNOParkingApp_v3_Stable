@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_address"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#a0000000"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/address_back_01"/>
+
+    <LinearLayout
+        android:id="@+id/callout_layout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/callout_layout5"
+        android:layout_alignLeft="@id/callout_layout5">
+
+        <ImageView
+            android:id="@+id/popup_address_txt_box__"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_icon_06"/>
+
+        <TextView
+            android:id="@+id/popup_address_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:includeFontPadding="false"
+            android:text="가영"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:shadowRadius="1"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowColor="#ff000000"
+            android:duplicateParentState="true"
+            android:layout_above="@+id/popup_address_txt_box"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/callout_layout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:duplicateParentState="true">
+        <ImageView
+            android:id="@+id/popup_address_txt_box"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/address_txt_box_01"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/popup_address_text"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="서울시 금천구 가산디지털 1로"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:duplicateParentState="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/popup_address_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="031-538-2114"
+        android:textSize="25dp"
+        android:textColor="#054e97"
+        android:layout_below="@id/popup_address_text"
+        android:layout_alignParentRight="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/callout_layout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:duplicateParentState="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@id/callout_layout5"
+        android:layout_below="@id/callout_layout5">
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/popup_address_btn_ok"
+            android:layout_width="170dp"
+            android:layout_height="65dp"
+            android:clickable="true"
+            android:src="@drawable/address_button_01"
+            />
+    </LinearLayout>
+</RelativeLayout>

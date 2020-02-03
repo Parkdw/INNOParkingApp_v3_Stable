@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    versionName
+    l  첫 번째 번호 : 컨셉이나 앱이 지향하는 기본 디자인이 변경된 경우
+    l  두 번째 번호 : 기능 추가나 사양이 변경된 경우
+    l  세 번째 번호 : 버그 수정, 디자인 변경
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.innocns.innoparking"
+    android:targetSandboxVersion="2"
+    android:versionCode="10"
+    android:versionName="1.20" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+
+    <!-- supports-screens 이란? - 기기별로 사이즈를 자동 리사이징하여 이미지나 xml data를 나타냄 -->
+    <!-- webview를 사용하지 않고 app내에 이미지를 많이 사용할 app을 개발할 경우는 supports-screens를 사용하는게 좋음 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <!-- 인터넷 접속 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 네트웍이 연결된것을 확인할수 있게함 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 통화상태_읽어오기_READ_SMS_SMS읽어오기 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 위치정보 확인함 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 코스_로케이션_액세스_(Cell-ID/WiFi) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- wifi 연결을 확인함 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- wifi 체인지를 확인함 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- owner_data쓰기 -->
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <!-- owner_data읽어오기 -->
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+
+    <!-- screenOrientation="portrait" : 세로 고정 -->
+    <application
+        android:name="com.nhn.android.mapviewer.NMapViewerApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:screenOrientation="portrait"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.nhn.android.mapviewer.LogoActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- configChanges="orientation" : 화면의 방향이 변해도 화면이 초기화 되지 않도록 함 -->
+        <!-- “keyboardHidden”: User 가 Hardware Keyboard를 보이고 감추는 등의 Keyboard의 Accessibility가 변경되었을 때 -->
+        <activity
+            android:name="com.nhn.android.mapviewer.NMapViewer"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/App.Theme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nhn.android.mapviewer.FragmentMapActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.nhn.android.mapviewer.PopupAddressActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+        <meta-data
+            android:name="com.kakao.sdk.kakaonavi.useWebView"
+            android:value="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.kakao.kakaonavi.KakaoNaviWebViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NMapViewer!</string>
+    <string name="app_name">장애인 주차 알리미</string>
+    <string name="logo_name">장애인 주차 알리미</string>
+    <string name="str_done">완료</string>
+    <string name="empty"></string>
+    <string name="permission_read_phone_state_rationale">권한을 체크해주세요</string>
+    <string name="permissions_not_granted_read_phone_state">권한 거부시 제약사항이 있습니다.</string>
+</resources>

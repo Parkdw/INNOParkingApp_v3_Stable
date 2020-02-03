@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kakao_app_key">38790146bd5da5753fa5e7557953dc6b</string>
+    <!--<string name="kakao_app_key">e7323b10ecfe53bcc7be82f04d9172a3</string>테스트 개인 계정-->
+</resources>

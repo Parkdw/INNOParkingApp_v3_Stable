@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/main_back_02">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="60"
+            android:layout_gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/textSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/search_txt_box_01"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="40"
+            android:layout_gravity="center_vertical">
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/btn_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:clickable="true"
+                android:src="@drawable/search_button_01"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lv_activity_main_nav_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/default_list_color"
+        android:choiceMode="singleChoice"
+        android:divider="@color/com_kakao_button_text_press"
+        android:dividerHeight="0dp"
+        android:listSelector="#00000000" />
+</LinearLayout>
