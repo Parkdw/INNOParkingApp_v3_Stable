@@ -1,4 +1,4 @@
-# **Naver Map SDK for Android**
+# **Naver Map을 이용한 장애인 주차 알리미 App **
 
 Android용 네이버 지도 라이브러리
 
