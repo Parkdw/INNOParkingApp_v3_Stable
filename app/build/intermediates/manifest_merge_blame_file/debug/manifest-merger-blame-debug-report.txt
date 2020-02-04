@@ -12,183 +12,184 @@
 12
 13    <uses-sdk
 14        android:minSdkVersion="23"
-14-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+14-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml
 15        android:targetSdkVersion="29" />
-15-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml
+15-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml
 16
 17    <!-- supports-screens 이란? - 기기별로 사이즈를 자동 리사이징하여 이미지나 xml data를 나타냄 -->
 18    <!-- webview를 사용하지 않고 app내에 이미지를 많이 사용할 app을 개발할 경우는 supports-screens를 사용하는게 좋음 -->
 19    <supports-screens
-19-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:5-136
+19-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:14:5-136
 20        android:anyDensity="true"
-20-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:108-133
+20-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:14:108-133
 21        android:largeScreens="true"
-21-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:23-50
+21-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:14:23-50
 22        android:normalScreens="true"
-22-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:51-79
+22-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:14:51-79
 23        android:smallScreens="true" />
-23-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:14:80-107
+23-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:14:80-107
 24
 25    <!-- 인터넷 접속 -->
 26    <uses-permission android:name="android.permission.INTERNET" />
-26-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:17:5-67
-26-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:17:22-64
+26-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:17:5-67
+26-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:17:22-64
 27    <!-- 네트웍이 연결된것을 확인할수 있게함 -->
 28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-28-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:19:5-78
-28-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:19:22-76
+28-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:19:5-78
+28-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:19:22-76
 29    <!-- 통화상태_읽어오기_READ_SMS_SMS읽어오기 -->
 30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-30-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:21:5-75
-30-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:21:22-72
+30-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:21:5-75
+30-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:21:22-72
 31    <!-- 위치정보 확인함 -->
 32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-32-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:23:5-78
-32-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:23:22-76
+32-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:23:5-78
+32-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:23:22-76
 33    <!-- 코스_로케이션_액세스_(Cell-ID/WiFi) -->
 34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-34-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:25:5-80
-34-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:25:22-78
+34-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:25:5-80
+34-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:25:22-78
 35    <!-- wifi 연결을 확인함 -->
 36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-36-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:27:5-75
-36-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:27:22-73
+36-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:27:5-75
+36-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:27:22-73
 37    <!-- wifi 체인지를 확인함 -->
 38    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-38-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:29:5-75
-38-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:29:22-73
+38-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:29:5-75
+38-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:29:22-73
 39    <!-- owner_data쓰기 -->
 40    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
-40-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:31:5-74
-40-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:31:22-72
+40-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:31:5-74
+40-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:31:22-72
 41    <!-- owner_data읽어오기 -->
 42    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
-42-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:33:5-73
-42-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:33:22-71
+42-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:33:5-73
+42-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:33:22-71
 43
 44    <!-- screenOrientation="portrait" : 세로 고정 -->
 45    <application
-45-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:36:5-85:19
+45-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:36:5-85:19
 46        android:name="com.nhn.android.mapviewer.NMapViewerApplication"
-46-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:41:3-65
+46-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:41:3-65
 47        android:allowBackup="true"
 47-->[com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:12:9-35
 48        android:debuggable="true"
 49        android:icon="@mipmap/ic_launcher"
-49-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:36:18-52
+49-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:36:18-52
 50        android:label="@string/app_name"
-50-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:37:6-38
+50-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:37:6-38
 51        android:networkSecurityConfig="@xml/network_security_config"
-51-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:40:9-69
+51-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:40:9-69
 52        android:screenOrientation="portrait"
-52-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:38:3-39
-53        android:theme="@style/AppTheme"
-53-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:42:9-40
-54        android:usesCleartextTraffic="true" >
-54-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:39:9-44
-55        <activity
-55-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:45:9-51:20
-56            android:name="com.nhn.android.mapviewer.LogoActivity"
-56-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:45:19-72
-57            android:theme="@android:style/Theme.NoTitleBar" >
-57-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:46:13-60
-58            <intent-filter>
-58-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:47:13-50:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:48:17-69
-59-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:48:25-66
-60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:49:17-77
-61-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:49:27-74
-62            </intent-filter>
-63        </activity>
-64
-65        <!-- configChanges="orientation" : 화면의 방향이 변해도 화면이 초기화 되지 않도록 함 -->
-66        <!-- “keyboardHidden”: User 가 Hardware Keyboard를 보이고 감추는 등의 Keyboard의 Accessibility가 변경되었을 때 -->
-67        <activity
-67-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:55:9-62:20
-68            android:name="com.nhn.android.mapviewer.NMapViewer"
-68-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:55:19-70
-69            android:configChanges="keyboardHidden|orientation"
-69-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:56:19-69
-70            android:theme="@style/App.Theme" >
-70-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:57:13-45
-71            <intent-filter>
-71-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:47:13-50:29
-72                <action android:name="android.intent.action.MAIN" />
-72-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:48:17-69
-72-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:48:25-66
-73
-74                <category android:name="android.intent.category.LAUNCHER" />
-74-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:49:17-77
-74-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:49:27-74
-75            </intent-filter>
-76        </activity>
-77        <activity
-77-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:64:9-66:20
-78            android:name="com.nhn.android.mapviewer.FragmentMapActivity"
-78-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:64:19-79
-79            android:configChanges="keyboardHidden|orientation" >
-79-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:65:19-69
-80        </activity>
-81        <activity
-81-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:68:9-72:20
-82            android:name="com.nhn.android.mapviewer.PopupAddressActivity"
-82-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:68:19-80
-83            android:configChanges="keyboardHidden|orientation"
-83-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:71:13-63
-84            android:theme="@android:style/Theme.Translucent" >
-84-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:69:13-61
-85        </activity>
-86
-87        <meta-data
-87-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:74:9-76:53
-88            android:name="com.kakao.sdk.AppKey"
-88-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:75:13-48
-89            android:value="@string/kakao_app_key" />
-89-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:76:13-50
-90        <meta-data
-90-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:78:9-80:37
-91            android:name="com.kakao.sdk.kakaonavi.useWebView"
-91-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:79:13-62
-92            android:value="false" />
-92-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:80:13-34
-93
-94        <uses-library
-94-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:82:9-84:39
-95            android:name="org.apache.http.legacy"
-95-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:83:13-50
-96            android:required="false" />
-96-->C:\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\src\main\AndroidManifest.xml:84:13-37
-97
-98        <activity
-98-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:9-172
-99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-99-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:19-85
-100            android:exported="false"
-100-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:146-170
-101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-101-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:86-145
-102
-103        <meta-data
-103-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:9-121
-104            android:name="com.google.android.gms.version"
-104-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:20-65
-105            android:value="@integer/google_play_services_version" />
-105-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:66-119
-106
-107        <activity
-107-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:12:9-17:20
-108            android:name="com.kakao.kakaonavi.KakaoNaviWebViewActivity"
-108-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:13:13-72
-109            android:configChanges="orientation|screenSize"
-109-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:14:13-59
-110            android:launchMode="singleTop"
-110-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:15:13-43
-111            android:windowSoftInputMode="adjustResize" >
-111-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:16:13-55
-112        </activity>
-113    </application>
-114
-115</manifest>
+52-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:38:3-39
+53        android:testOnly="true"
+54        android:theme="@style/AppTheme"
+54-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:42:9-40
+55        android:usesCleartextTraffic="true" >
+55-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:39:9-44
+56        <activity
+56-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:45:9-51:20
+57            android:name="com.nhn.android.mapviewer.LogoActivity"
+57-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:45:19-72
+58            android:theme="@android:style/Theme.NoTitleBar" >
+58-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:46:13-60
+59            <intent-filter>
+59-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:47:13-50:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:48:17-69
+60-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:48:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:49:17-77
+62-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:49:27-74
+63            </intent-filter>
+64        </activity>
+65
+66        <!-- configChanges="orientation" : 화면의 방향이 변해도 화면이 초기화 되지 않도록 함 -->
+67        <!-- “keyboardHidden”: User 가 Hardware Keyboard를 보이고 감추는 등의 Keyboard의 Accessibility가 변경되었을 때 -->
+68        <activity
+68-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:55:9-62:20
+69            android:name="com.nhn.android.mapviewer.NMapViewer"
+69-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:55:19-70
+70            android:configChanges="keyboardHidden|orientation"
+70-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:56:19-69
+71            android:theme="@style/App.Theme" >
+71-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:57:13-45
+72            <intent-filter>
+72-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:47:13-50:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:48:17-69
+73-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:48:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:49:17-77
+75-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:49:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:64:9-66:20
+79            android:name="com.nhn.android.mapviewer.FragmentMapActivity"
+79-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:64:19-79
+80            android:configChanges="keyboardHidden|orientation" >
+80-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:65:19-69
+81        </activity>
+82        <activity
+82-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:68:9-72:20
+83            android:name="com.nhn.android.mapviewer.PopupAddressActivity"
+83-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:68:19-80
+84            android:configChanges="keyboardHidden|orientation"
+84-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:71:13-63
+85            android:theme="@android:style/Theme.Translucent" >
+85-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:69:13-61
+86        </activity>
+87
+88        <meta-data
+88-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:74:9-76:53
+89            android:name="com.kakao.sdk.AppKey"
+89-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:75:13-48
+90            android:value="@string/kakao_app_key" />
+90-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:76:13-50
+91        <meta-data
+91-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:78:9-80:37
+92            android:name="com.kakao.sdk.kakaonavi.useWebView"
+92-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:79:13-62
+93            android:value="false" />
+93-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:80:13-34
+94
+95        <uses-library
+95-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:82:9-84:39
+96            android:name="org.apache.http.legacy"
+96-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:83:13-50
+97            android:required="false" />
+97-->C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\src\main\AndroidManifest.xml:84:13-37
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:9-172
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:19-85
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:146-170
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\6d8268510d5269dce93ecef48267e23d\play-services-base-11.4.2\AndroidManifest.xml:19:86-145
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:9-121
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:20-65
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:11.4.2] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\127dcd805984820db6fb39e32d5a09a7\play-services-basement-11.4.2\AndroidManifest.xml:20:66-119
+107
+108        <activity
+108-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:12:9-17:20
+109            android:name="com.kakao.kakaonavi.KakaoNaviWebViewActivity"
+109-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:13:13-72
+110            android:configChanges="orientation|screenSize"
+110-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:14:13-59
+111            android:launchMode="singleTop"
+111-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:15:13-43
+112            android:windowSoftInputMode="adjustResize" >
+112-->[com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:16:13-55
+113        </activity>
+114    </application>
+115
+116</manifest>

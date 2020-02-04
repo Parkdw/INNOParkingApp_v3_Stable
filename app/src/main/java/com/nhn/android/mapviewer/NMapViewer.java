@@ -175,8 +175,6 @@ public class NMapViewer extends NMapActivity {
 	EditText editTextSearch;
 
 	ListView listViewSliderParking;
-	ListView listViewSlider_name;
-	ListView listViewSlider_dist;
 
 	TMapTapi tmaptapi;
 	private NMapCalloutCustomOverlayView selectedOverlayView;
@@ -193,8 +191,6 @@ public class NMapViewer extends NMapActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		instance = this;
-		//Intent intent = new Intent(getApplicationContext(), LogoActivity.class);
-		//startActivity(intent);
 
 		if (USE_XML_LAYOUT) {
 			setContentView(R.layout.main);
@@ -283,8 +279,6 @@ public class NMapViewer extends NMapActivity {
 		editTextSearch.setTypeface(Typeface.DEFAULT_BOLD);
 		// 리스트 뷰 생성
 		listViewSliderParking = (ListView)findViewById(R.id.lv_activity_main_nav_list);
-		//listViewSlider_name = (ListView) findViewById(R.id.text1);
-		//listViewSlider_dist = (ListView) findViewById(R.id.text2);
 
 		// 리스트 클릭 이벤트
 		listViewSliderParking.setOnItemClickListener(new DrawerItemClickListener());
@@ -362,7 +356,7 @@ public class NMapViewer extends NMapActivity {
 			mMapView.postInvalidate();
 
 			if(isMyLocationEnabled) {
-				Toast.makeText(NMapViewer.this, "* 위치 권한 허용 됨 *", Toast.LENGTH_LONG).show();
+				Toast.makeText(NMapViewer.this, "위치 권한 허용 됨", Toast.LENGTH_LONG).show();
 
 				initSearchParkingLot();
 			}
@@ -377,10 +371,8 @@ public class NMapViewer extends NMapActivity {
 	private void initSearchParkingLot () {
 		/* 위치 변화 리스너 onMyLocationChangeListener 는 아래에 정의  (1100줄 정도에 정의) */
 		mMapLocationManager.setOnLocationChangeListener(onMyLocationChangeListener);  // 위치변화 리스너 Set
-
-//		onMyLocationChangeListener.onLocationChanged(mMapLocationManager, testPoint);
-//		mMapLocationManager.removeOnLocationChangeListener(onMyLocationChangeListener);
 	}
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -396,56 +388,56 @@ public class NMapViewer extends NMapActivity {
 			Log.i("NEW", " ***** 현재 위치  :  " +  myLocation );
 			my_Location = myLocation;
 
-			/* myLocation : 현재 좌표 */
-			List<ParkingManager.ParkingVO> list = ParkingManager.instance().all.list;
-			double[] comparedDist = new double[list.size()];
-			int min_idx = 0;
-			double radius_Distance = 5000.0;   //  주변 검색 반경 : 5km
-			double min = radius_Distance;
-
-			/*
-			// 현재좌표가 다른 지역일 때 TEST Points
-			NGeoPoint point_YangCheon1 = new NGeoPoint(126.861801, 37.516553);  // 양천 문화회관
-			NGeoPoint point_YangCheon2 = new NGeoPoint(126.874500, 37.526016);  // 양천 공영주차장
-			NGeoPoint point_Gwangneung_Arboretum = new NGeoPoint(127.182460, 37.751336);  // 광릉 수목원 주차장
-			*/
-
-			Log.i("result", "*****++++  list.size()  ++++******  " + list.size() );
-			if (list.size() > 0) {
-				for (int i = 0; i < list.size(); i++) {
-					ParkingManager.ParkingVO pv = list.get(i);
-					NGeoPoint to = new NGeoPoint(pv.lng, pv.lat);
-					comparedDist[i] = NGeoPoint.getDistance(myLocation, to);
-					//Log.i("comparedDist", "*********  comparedDist Data " + i + " : " + comparedDist[i]);
-
-					if (min > comparedDist[i]) {
-						min = comparedDist[i];
-						min_idx = i;
-					}
-				}
-				ParkingManager.ParkingVO targetData = list.get(min_idx);
-				target_Point = new NGeoPoint(targetData.lng, targetData.lat);
-
-				/* min data에 변화가 없다  ->  가까운 곳에 장애인 주차장이 없다는 것. */
-				if (radius_Distance == min){
-					Toast.makeText(NMapViewer.this, "가까운 장애인 주차장을 \n찾지 못했습니다...", Toast.LENGTH_LONG).show();
-
-					Log.i("result", "*****  가까운 장애인 주차장을 찾지 못했습니다...  *****  " );
-					mMapController.setMapCenter(myLocation);  // 본인 위치
-				}
-				else{
-					Log.i("result", "*****++++  Target_Parking_NAME  :  " + targetData.name +  " 주차장  ++++******  "  );
-					Log.i("result", "*****++++  Target_Parking_Point  :  " + target_Point +  "  ++++******  "  );
-
-					mMapController.setMapCenter(target_Point);  //  타겟 위치
-
-					Log.i("result", "*****  타켓 주차장으로 이동했습니다!!  *****  " );
-				}
-			}
-			else {
-				Toast.makeText(NMapViewer.this, " 주차장 데이터를 \n불러오지 못했습니다...", Toast.LENGTH_LONG).show();
-			}
-
+/*  근처 주차장 검색 기능 OFF		2020.02.04 */
+//			/* myLocation : 현재 좌표 */
+//			List<ParkingManager.ParkingVO> list = ParkingManager.instance().all.list;
+//			double[] comparedDist = new double[list.size()];
+//			int min_idx = 0;
+//			double radius_Distance = 5000.0;   //  주변 검색 반경 : 5km
+//			double min = radius_Distance;
+//
+//			/*
+//			// 현재좌표가 다른 지역일 때 TEST Points
+//			NGeoPoint point_YangCheon1 = new NGeoPoint(126.861801, 37.516553);  // 양천 문화회관
+//			NGeoPoint point_YangCheon2 = new NGeoPoint(126.874500, 37.526016);  // 양천 공영주차장
+//			NGeoPoint point_Gwangneung_Arboretum = new NGeoPoint(127.182460, 37.751336);  // 광릉 수목원 주차장
+//			*/
+//
+//			Log.i("result", "*****++++  list.size()  ++++******  " + list.size() );
+//			if (list.size() > 0) {
+//				for (int i = 0; i < list.size(); i++) {
+//					ParkingManager.ParkingVO pv = list.get(i);
+//					NGeoPoint to = new NGeoPoint(pv.lng, pv.lat);
+//					comparedDist[i] = NGeoPoint.getDistance(myLocation, to);
+//					//Log.i("comparedDist", "*********  comparedDist Data " + i + " : " + comparedDist[i]);
+//
+//					if (min > comparedDist[i]) {
+//						min = comparedDist[i];
+//						min_idx = i;
+//					}
+//				}
+//				ParkingManager.ParkingVO targetData = list.get(min_idx);
+//				target_Point = new NGeoPoint(targetData.lng, targetData.lat);
+//
+//				/* min data에 변화가 없다  ->  가까운 곳에 장애인 주차장이 없다는 것. */
+//				if (radius_Distance == min){
+//					Toast.makeText(NMapViewer.this, "가까운 장애인 주차장을 \n찾지 못했습니다...", Toast.LENGTH_LONG).show();
+//
+//					Log.i("result", "*****  가까운 장애인 주차장을 찾지 못했습니다...  *****  " );
+//					mMapController.setMapCenter(myLocation);  // 본인 위치
+//				}
+//				else{
+//					Log.i("result", "*****++++  Target_Parking_NAME  :  " + targetData.name +  " 주차장  ++++******  "  );
+//					Log.i("result", "*****++++  Target_Parking_Point  :  " + target_Point +  "  ++++******  "  );
+//
+//					mMapController.setMapCenter(target_Point);  //  타겟 위치
+//
+//					Log.i("result", "*****  타켓 주차장으로 이동했습니다!!  *****  " );
+//				}
+//			}
+//			else {
+//				Toast.makeText(NMapViewer.this, " 주차장 데이터를 \n불러오지 못했습니다...", Toast.LENGTH_LONG).show();
+//			}
 			return true;
 		}
 
@@ -533,6 +525,7 @@ public class NMapViewer extends NMapActivity {
 
 		if(isFirst) {
 			isFirst = false;
+			//Log.i("NEW", " ***** onStart() 현재 위치  :  " +  my_Location );
 
 			startMyLocation();
 
@@ -632,6 +625,7 @@ public class NMapViewer extends NMapActivity {
 			}
 		}
 	}
+
 	private void alertAlert(String msg) {
 		new AlertDialog.Builder(NMapViewer.this)
 				.setTitle("GPS 권한 설정")
@@ -645,14 +639,15 @@ public class NMapViewer extends NMapActivity {
 				.setIcon(R.drawable.ic_warning_black_24dp)
 				.show();
 	}
+
 	@SuppressLint("MissingPermission")
 	public void doPermissionGrantedStuffs() {
 		Boolean isMyLocationEnabled = mMapLocationManager.enableMyLocation(false);
 		// 현재 위치 탐색 중인지 여부를 반환한다.
 		if (isMyLocationEnabled) {
-//			Log.d("성공","성공 : " + mMapLocationManager.getMyLocation());
-//			stopMyLocation();
 			mMapView.postInvalidate();
+			NGeoPoint myLocation = mMapLocationManager.getMyLocation();		// Map의 변경을 감지하면, 현재위치 값을 받아올 수 있다.
+			//Log.i("NEW", " ***** doPermissionGrantedStuffs() 현재 위치  :  " +  myLocation );
 		}
 		else{	//현재 위치를 탐색 중이 아니면
 			//Log.d("현재위치 실패","현재위치 실패");

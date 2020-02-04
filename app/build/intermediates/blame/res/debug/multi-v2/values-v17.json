@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pdw07\\AndroidStudioProjects\\ParkingSystemAndroid-02.01-update\\ParkingSystemAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\pdw07\\AndroidStudioProjects\\INNOParkingApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pdw07\\.gradle\\caches\\transforms-2\\files-2.1\\c9c81f56e40d82a154ce34c9fc415806\\appcompat-v7-23.2.1\\res\\values-v17\\values-v17.xml",

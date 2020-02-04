@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pdw07\\AndroidStudioProjects\\ParkingSystemAndroid-02.01-update\\ParkingSystemAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\pdw07\\AndroidStudioProjects\\INNOParkingApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pdw07\\AndroidStudioProjects\\ParkingSystemAndroid-02.01-update\\ParkingSystemAndroid\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "C:\\Users\\pdw07\\AndroidStudioProjects\\INNOParkingApp\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
-                        "startOffsets": "53",
+                        "startOffsets": "56",
                         "endLines": "6",
                         "endColumns": "9",
-                        "endOffsets": "216"
+                        "endOffsets": "222"
                     },
                     "to": {
                         "startLines": "2",

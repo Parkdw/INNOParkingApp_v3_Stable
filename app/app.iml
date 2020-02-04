@@ -89,8 +89,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\libs\com.skt.Tmap_1.57.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\pdw07\AndroidStudioProjects\ParkingSystemAndroid-02.01-update\ParkingSystemAndroid\app\libs\json_simple-1.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\libs\com.skt.Tmap_1.57.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\pdw07\AndroidStudioProjects\INNOParkingApp\app\libs\json_simple-1.1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.10@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.naver.maps.open:naver-map-ncp-api:2.1.7@aar" level="project" />
