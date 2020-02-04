@@ -39,7 +39,7 @@ dependencies {
     implementation 'org.apache.httpcomponents:httpcore:4.4.13'
 
     // NaverMap Version 2
-    implementation 'com.naver.maps.open:naver-map-ncp-api:2.1.7@aar'
+    //implementation 'com.naver.maps.open:naver-map-ncp-api:2.1.7@aar'
 
     /* NaverMap Version 3 update 2020.02.04 */
     implementation("org.jetbrains.anko:anko-commons:0.10.8")
