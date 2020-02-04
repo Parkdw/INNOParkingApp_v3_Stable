@@ -29,7 +29,10 @@ allprojects {
             dirs 'libs'
         }
 
+        /* NaverMap Version 3 update 2020.02.04 */
+        maven { url "https://navercorp.bintray.com/maps" }
 
+        maven { url 'https://jitpack.io' }     // ERROR : duplicate 'attr/font' -> Solved!
     }
 }
 

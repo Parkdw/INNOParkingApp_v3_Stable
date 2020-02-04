@@ -29,18 +29,28 @@ android {
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    //implementation 'com.naver.maps.open:naver-map-api:2.1.2@aar'
-    implementation 'com.naver.maps.open:naver-map-ncp-api:2.1.7@aar'
-    //implementation 'com.naver.maps.open:naver-map-ncp-api:2.1.5@aar'
-    implementation 'com.google.android.gms:play-services-location:11.4.2'
+    //implementation 'com.google.android.gms:play-services-location:11.4.2'
     //implementation 'com.android.support:support-v4:28.0.0'
-    //implementation 'com.android.support:support-v4:25.4.0'
     implementation 'com.android.support:support-annotations:28.0.0'
 
     implementation 'com.kakao.sdk:kakaonavi:1.1.31'
-    implementation 'com.tsengvn:Typekit:1.0.0'
     implementation files('libs/com.skt.Tmap_1.57.jar')
 
     implementation 'org.apache.httpcomponents:httpcore:4.4.13'
 
+    // NaverMap Version 2
+    implementation 'com.naver.maps.open:naver-map-ncp-api:2.1.7@aar'
+
+    /* NaverMap Version 3 update 2020.02.04 */
+    implementation("org.jetbrains.anko:anko-commons:0.10.8")
+    implementation("com.android.support:support-v4:28.0.0")
+    implementation("com.android.support:appcompat-v7:28.0.0")
+    implementation("com.android.support:design:28.0.0")
+    implementation("com.android.support.constraint:constraint-layout:1.1.3")
+    implementation("com.google.android:flexbox:1.0.0")
+    implementation("com.google.android.gms:play-services-location:16.0.0")
+    implementation("com.naver.maps:map-sdk:3.7.0")
+
+    //implementation 'com.tsengvn:Typekit:1.0.0'
+    implementation "com.github.katoro:typekit:1.0.1"    // ERROR : duplicate 'attr/font' -> Solved!
 }
