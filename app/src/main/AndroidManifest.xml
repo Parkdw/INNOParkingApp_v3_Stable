@@ -38,38 +38,32 @@
 		android:screenOrientation="portrait"
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config"
-		android:name="com.nhn.android.mapviewer.NMapViewerApplication"
-        android:theme="@style/AppTheme">
+		android:name="com.innocns.innoparking.NMapViewerApplication"
+        android:theme="@style/Theme.AppCompat"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="5z3fbsprqu" />
 
 
-        <activity android:name="com.nhn.android.mapviewer.LogoActivity"
+        <activity android:name=".LogoActivity"
             android:theme="@android:style/Theme.NoTitleBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
 
         <!-- configChanges="orientation" : 화면의 방향이 변해도 화면이 초기화 되지 않도록 함 -->
         <!-- “keyboardHidden”: User 가 Hardware Keyboard를 보이고 감추는 등의 Keyboard의 Accessibility가 변경되었을 때 -->
-        <activity android:name="com.nhn.android.mapviewer.NMapViewer"
-                  android:configChanges="keyboardHidden|orientation"
-            android:theme="@style/App.Theme">
+        <activity android:name=".NMapViewer"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/Theme.AppCompat">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity android:name="com.nhn.android.mapviewer.FragmentMapActivity"
-                  android:configChanges="keyboardHidden|orientation">
-        </activity>
 
-        <activity android:name="com.nhn.android.mapviewer.PopupAddressActivity"
-            android:theme="@android:style/Theme.Translucent"
-
-            android:configChanges="keyboardHidden|orientation">
-        </activity>
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"

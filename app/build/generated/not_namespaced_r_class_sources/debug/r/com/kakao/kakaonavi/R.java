@@ -485,7 +485,7 @@ public final class R {
         public static final int kakaoaccount_icon = 0x7f08009e;
         public static final int kakaostory_icon = 0x7f08009f;
         public static final int kakaotalk_icon = 0x7f0800a0;
-        public static final int notification_template_icon_bg = 0x7f0800f6;
+        public static final int notification_template_icon_bg = 0x7f0800f2;
     }
     public static final class id {
         private id() {}

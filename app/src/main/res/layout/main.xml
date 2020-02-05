@@ -8,14 +8,22 @@
     <android.support.v4.widget.DrawerLayout
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
-        <com.nhn.android.maps.NMapView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="@string/hello"
-            android:id="@+id/mapView"/>
+
+        <fragment
+            android:id="@+id/mapView"
+            android:name="com.naver.maps.map.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello" />
+<!--        <com.nhn.android.maps.NMapView-->
+<!--            android:id="@+id/mapView"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="fill_parent"-->
+<!--            android:text="@string/hello" />-->
+
+
         <!--<FrameLayout
             android:id="@+id/container"
             android:layout_width="match_parent"
@@ -28,10 +36,11 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:background="#ffffff">
+
             <include
+                layout="@layout/slidemenu_main"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                layout="@layout/slidemenu_main"/>
+                android:layout_height="match_parent" />
         </RelativeLayout>
 
 

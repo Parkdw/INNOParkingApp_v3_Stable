@@ -11,7 +11,7 @@
     android:versionName="1.20" >
 
     <uses-sdk
-        android:minSdkVersion="23"
+        android:minSdkVersion="21"
         android:targetSdkVersion="29" />
 
     <!-- supports-screens 이란? - 기기별로 사이즈를 자동 리사이징하여 이미지나 xml data를 나타냄 -->
@@ -48,46 +48,36 @@
         android:name="android.hardware.wifi"
         android:required="false" /> <!-- screenOrientation="portrait" : 세로 고정 -->
     <application
-        android:name="com.nhn.android.mapviewer.NMapViewerApplication"
-        android:allowBackup="true"
+        android:name="com.innocns.innoparking.NMapViewerApplication"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:networkSecurityConfig="@xml/network_security_config"
         android:screenOrientation="portrait"
-        android:theme="@style/AppTheme"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat"
         android:usesCleartextTraffic="true" >
-        <activity
-            android:name="com.nhn.android.mapviewer.LogoActivity"
-            android:theme="@android:style/Theme.NoTitleBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="5z3fbsprqu" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity
+            android:name="com.innocns.innoparking.LogoActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
 
         <!-- configChanges="orientation" : 화면의 방향이 변해도 화면이 초기화 되지 않도록 함 -->
         <!-- “keyboardHidden”: User 가 Hardware Keyboard를 보이고 감추는 등의 Keyboard의 Accessibility가 변경되었을 때 -->
         <activity
-            android:name="com.nhn.android.mapviewer.NMapViewer"
+            android:name="com.innocns.innoparking.NMapViewer"
             android:configChanges="keyboardHidden|orientation"
-            android:theme="@style/App.Theme" >
+            android:theme="@style/Theme.AppCompat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.nhn.android.mapviewer.FragmentMapActivity"
-            android:configChanges="keyboardHidden|orientation" >
-        </activity>
-        <activity
-            android:name="com.nhn.android.mapviewer.PopupAddressActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:theme="@android:style/Theme.Translucent" >
         </activity>
 
         <meta-data

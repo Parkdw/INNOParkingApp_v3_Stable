@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-87:12
-INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-87:12
-INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-87:12
-INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-87:12
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-81:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-81:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-81:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-81:12
 MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:2:1-20:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\9d71f75d1a9f3d36ba6d55e6344f64f2\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.naver.maps:map-sdk:3.7.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\edc4cf957a1c8ce8a39c96b76d5a385f\map-sdk-3.7.0\AndroidManifest.xml:2:1-40:12
@@ -47,15 +47,14 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\pdw07\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\557689cfb6a20b08e862221b4d408044\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\2485ca0e1ceb2fece989e57a7457b8b0\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\29ae1284990d5557d484d781c6224c77\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:2:1-16:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\88fab25fb3aa6d8f95fe022e86125918\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android:flexbox:1.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb97dcc67dcc2a1d540c9702324f4acb\flexbox-1.0.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.kakao.sdk:network:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\95822bfec9c5f56a9e1f15b5c1cb6f36\network-1.1.31\AndroidManifest.xml:2:1-12:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.3.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\2df904a7c11a17209838f8037226c29c\relinker-1.3.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.kakao.sdk:util:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\60f2c1d1af0230085da90020704e5a78\util-1.1.31\AndroidManifest.xml:2:1-15:12
-INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-87:12
-INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-87:12
-INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-87:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-81:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-81:12
+INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:6:1-81:12
 	package
 		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:8:5-38
 		INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml
@@ -125,7 +124,7 @@ ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main
 	android:name
 		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:33:22-71
 application
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:36:5-85:19
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:36:5-79:19
 MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:11:5-18:19
 MERGED from [com.kakao.sdk:kakaonavi:1.1.31] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\13695016e527c14f10a25c69b808e2ec\kakaonavi-1.1.31\AndroidManifest.xml:11:5-18:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\9d71f75d1a9f3d36ba6d55e6344f64f2\design-28.0.0\AndroidManifest.xml:22:5-20
@@ -150,8 +149,6 @@ MERGED from [com.android.support:support-compat:28.0.0] C:\Users\pdw07\.gradle\c
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c711af080d8411ed44574c8e0c621368\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\093ab3507218c18c769de2bbde665d6f\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\093ab3507218c18c769de2bbde665d6f\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:11:5-14:19
-MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\88fab25fb3aa6d8f95fe022e86125918\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\88fab25fb3aa6d8f95fe022e86125918\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
 	android:screenOrientation
@@ -160,74 +157,66 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pd
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\c711af080d8411ed44574c8e0c621368\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:label
 		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:37:6-38
-	android:allowBackup
-		ADDED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:12:9-35
+	tools:ignore
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:43:9-48
 	android:icon
 		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:36:18-52
 	android:theme
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:42:9-40
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:42:9-47
 	android:networkSecurityConfig
 		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:40:9-69
 	android:usesCleartextTraffic
 		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:39:9-44
 	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:41:3-65
-activity#com.nhn.android.mapviewer.LogoActivity
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:45:9-51:20
-	android:theme
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:46:13-60
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:41:3-63
+meta-data#com.naver.maps.map.CLIENT_ID
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:45:9-47:42
+	android:value
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:47:13-39
 	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:45:19-72
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:46:13-56
+activity#com.innocns.innoparking.LogoActivity
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:50:9-52:20
+	android:theme
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:51:13-60
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:50:19-47
+activity#com.innocns.innoparking.NMapViewer
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:57:9-65:20
+	android:configChanges
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:58:13-63
+	android:theme
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:59:13-51
+	android:name
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:57:19-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:47:13-50:29
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:61:13-64:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:62:17-69
 	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:62:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:49:17-77
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:49:27-74
-activity#com.nhn.android.mapviewer.NMapViewer
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:55:9-62:20
-	android:configChanges
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:56:19-69
-	android:theme
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:57:13-45
-	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:55:19-70
-activity#com.nhn.android.mapviewer.FragmentMapActivity
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:64:9-66:20
-	android:configChanges
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:65:19-69
-	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:64:19-79
-activity#com.nhn.android.mapviewer.PopupAddressActivity
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:68:9-72:20
-	android:configChanges
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:71:13-63
-	android:theme
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:69:13-61
-	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:68:19-80
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:63:27-74
 meta-data#com.kakao.sdk.AppKey
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:74:9-76:53
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:68:9-70:53
 	android:value
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:76:13-50
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:70:13-50
 	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:75:13-48
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:69:13-48
 meta-data#com.kakao.sdk.kakaonavi.useWebView
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:78:9-80:37
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:72:9-74:37
 	android:value
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:80:13-34
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:74:13-34
 	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:79:13-62
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:73:13-62
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:82:9-84:39
+ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:76:9-78:39
 	android:required
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:84:13-37
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:78:13-37
 	android:name
-		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:83:13-50
+		ADDED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml:77:13-50
 uses-sdk
 INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\pdw07\AndroidStudioProjects\INNOParkingApp-test\app\src\main\AndroidManifest.xml
@@ -318,8 +307,6 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\pdw07\.gradle\
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\2485ca0e1ceb2fece989e57a7457b8b0\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\29ae1284990d5557d484d781c6224c77\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\29ae1284990d5557d484d781c6224c77\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:7:5-9:41
-MERGED from [com.naver.maps.open:naver-map-ncp-api:2.1.7] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb2c0aa94a84b863caf1767f527cf506\naver-map-ncp-api-2.1.7\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\88fab25fb3aa6d8f95fe022e86125918\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\88fab25fb3aa6d8f95fe022e86125918\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android:flexbox:1.0.0] C:\Users\pdw07\.gradle\caches\transforms-2\files-2.1\fb97dcc67dcc2a1d540c9702324f4acb\flexbox-1.0.0\AndroidManifest.xml:23:5-25:41
